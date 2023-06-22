@@ -16,15 +16,16 @@ Inicio
    EscrevaL ("~~~~~~~~~~~~~~~~~~~~~~~~")
    EscrevaL
    contador <- 1
-   Repita
-      Escreva ("Digite o Valor do produto: ")
+   Enquanto (contador <= 2) faca
+      Escreva ("Digite o Valor do ", contador, "º produto: ")
       Leia (valor)
-      LimpaTela
       Se (valor > maiorValor) entao
          maiorValor <- valor
+      senao
+         menorValor <- valor
       FimSe
       contador <- contador + 1
-   Ate (contador > 2)
+   FimEnquanto
    EscrevaL ("O maior valor digitado foi: ", maiorValor)
    EscrevaL ("O menor valor digitado foi: ", menorValor)
 
