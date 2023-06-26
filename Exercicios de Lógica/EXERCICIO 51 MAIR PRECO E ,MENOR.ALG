@@ -21,8 +21,6 @@ Inicio
       Leia (valor)
       Se (valor > maiorValor) entao
          maiorValor <- valor
-      senao
-         menorValor <- valor
       FimSe
       contador <- contador + 1
    FimEnquanto
